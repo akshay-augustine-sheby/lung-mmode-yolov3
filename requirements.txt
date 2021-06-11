@@ -1,0 +1,6 @@
+numpy==1.19.5
+streamlit==0.81.1
+matplotlib==3.4.2
+opencv_python==4.5.2.52
+pydicom==2.1.2
+Pillow==8.2.0
