@@ -31,12 +31,12 @@ def detect_objects(our_image):
     # YOLO ALGORITHM
     import urllib.request
 
-    url1 = 'https://github.com/AlanRSET/mYolo/releases/download/YoloWeightsF1/yolov3_training_last.weights'
+    url1 = 'https://github.com/akshay-augustine-sheby/mmode-yolov3/releases/tag/others/yolov3_training_last.weights'
     hf1 = url1.split('/')[-1]
 
     urllib.request.urlretrieve(url1, hf1)
     
-    url2 = 'https://github.com/AlanRSET/mYolo/releases/download/YoloWeightsF1/yolov3_testing.cfg'
+    url2 = 'https://github.com/akshay-augustine-sheby/mmode-yolov3/releases/tag/others/yolov3_testing.cfg'
     hf2 = url2.split('/')[-1]
 
     urllib.request.urlretrieve(url2, hf2)
